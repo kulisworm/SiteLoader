@@ -35,7 +35,7 @@ while True:
         print(yellow + "Your host adress:")
         print(red + "http://0.0.0.0:" + port + "/" + html_name)
         print(endc + "to stop server ,use " + green + "CTRL+C")
-        os.system("python -m http.server " + port)
+        os.system("python3 -m http.server " + port)
     elif main_select == "2":
         print(endc + "Update packets ,please wait...")
         os.system("apt update -y")
