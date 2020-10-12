@@ -2,10 +2,8 @@ SiteLoader
 ====================
 **SiteLoader** can create localhost to load your   
 html site, to install SiteLoader write:
-'''
-git clone https://github.com/kulisworm/SiteLoader
-cd SiteLoader
-'''
+    git clone https://github.com/kulisworm/SiteLoader
+    cd SiteLoader
 In main folder you can see two files:
 - SiteLoader.py
 - test.html
