@@ -12,14 +12,15 @@ In main folder you can see two files:
 ------------
 SiteLoader.py is main file, to start write:
 '''
-python3 SiteLoader.py
+python3 SiteLoader.py  
 '''
 To update packets choose **2**   
 After this you can start SiteLoader, write **1**   
 > Select html name:
 You must write name your html file, example:
 - test.html
-> Port:
+> Port:  
 You must Select Port, example:
-- 8080
+- 8080  
 After this, we have local link, enjoy! 
+. 
