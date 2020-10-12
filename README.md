@@ -11,9 +11,7 @@ In main folder you can see two files:
 - test.html
 ------------
 SiteLoader.py is main file, to start write:
-'''
-python3 SiteLoader.py
-'''
+'python3 SiteLoader.py'
 To update packets choose **2**   
 After this you can start SiteLoader, write **1**   
 > Select html name:
