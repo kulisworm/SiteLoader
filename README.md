@@ -4,7 +4,8 @@ SiteLoader
 html site, to install SiteLoader write:
 '''
 git clone https://github.com/kulisworm/SiteLoader
-cd SiteLoader
+cd SiteLoader   
+chmod +x SiteLoader.py
 '''
 In main folder you can see two files:
 - SiteLoader.py
