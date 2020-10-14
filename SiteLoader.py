@@ -35,7 +35,21 @@ while True:
         print(yellow + "Your host adress:")
         print(red + "http://0.0.0.0:" + port + "/" + html_name)
         print(endc + "to stop server ,use " + green + "CTRL+C")
-        os.system("python3 -m http.server " + port)
+        os.system("sudo python3 -m http.server " + port)
+        os.system("clear")
+        while True:
+            print(yellow + "Do you want " + red + "close " + yellow + "SiteLoader")
+            yn = input(yellow + "y/n")
+            if yn == "y":
+                os.system("clear")
+                print("Closing...")
+                sys.exit()
+            elif yn == "n":
+                os.system("clear")
+                print("Exiting to main menu")
+                break
+            else:
+                print("Please , select y or n")
     elif main_select == "2":
         print(endc + "Update packets ,please wait...")
         os.system("apt update -y")
